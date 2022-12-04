@@ -33,7 +33,7 @@ def print_top_list_sum(top_list):
 
 
 def main():
-    txt_name = 'day-one/calories_list.txt'
+    txt_name = 'day-1/calories_list.txt'
     txt_data = open(txt_name, 'r')
     top_calories_sum = [0, 0, 0]
     calories_sum_aux = 0

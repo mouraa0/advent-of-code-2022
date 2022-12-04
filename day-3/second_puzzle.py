@@ -18,7 +18,7 @@ def get_priority_by_group(group_arr):
 
 
 def main():
-    archive_name = 'day-three/list.txt'
+    archive_name = 'day-3/list.txt'
     archive_data = open(archive_name, 'r')
     group_arr = []
     sum = 0

@@ -4,7 +4,7 @@
 
 
 def main():
-    txt_name = 'day-one/calories_list.txt'
+    txt_name = 'day-1/calories_list.txt'
     txt_data = open(txt_name, 'r')
     calories_sum_aux = 0
     biggest_calories_amount = 0

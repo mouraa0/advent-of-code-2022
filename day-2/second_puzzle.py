@@ -76,7 +76,7 @@ def get_play_score(play_line):
 
 
 def main():
-    archive_name = 'day-two/list.txt'
+    archive_name = 'day-2/list.txt'
     archive_data = open(archive_name, 'r')
     score = 0
 

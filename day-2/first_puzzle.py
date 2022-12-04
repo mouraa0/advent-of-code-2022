@@ -40,7 +40,7 @@ def get_result_points(play_line):
     return result_dict.get(play_line.replace(' ','')) + get_choice_points(play_line[2])
 
 def main():
-    archive_name = 'day-two/list.txt'
+    archive_name = 'day-2/list.txt'
     archive_data = open(archive_name, 'r')
     score = 0
 
