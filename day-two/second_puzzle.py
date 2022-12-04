@@ -83,6 +83,8 @@ def main():
     while line := archive_data.readline():
         score += get_play_score(line.replace('\n', ''))
 
+    archive_data.close()
+
     print(score)
 
 

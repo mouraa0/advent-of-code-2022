@@ -47,6 +47,8 @@ def main():
     while line := archive_data.readline():
         score += get_result_points(line.replace('\n', ''))
     
+    archive_data.close()
+
     print(score)
 
 
